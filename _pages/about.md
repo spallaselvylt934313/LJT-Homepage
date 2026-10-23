@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am a first-year PhD candidate at the HKUST NLP Group, Hong Kong University of Science and Technology (HKUST), advised by Professor Junxian He. Professor Junxian He also advised me during my undergraduate studies at Shanghai Jiao Tong University (SJTU). My research focuses on natural language processing and machine learning.
 
 ## Research Interests
@@ -37,27 +39,27 @@ I am a first-year PhD candidate at the HKUST NLP Group, Hong Kong University of 
 
 ## Publications
 
-1. [**SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**](/publication/synlogic/)
+1. [**SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**]({{ base_path }}/publication/synlogic/)
    **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He
    *arXiv*, 2025. **First author.** GitHub code repository.
 
-2. [**On the Perception Bottleneck of VLMs for Chart Understanding**](/publication/perception-bottleneck-of-vlms-for-chart-understanding/)
+2. [**On the Perception Bottleneck of VLMs for Chart Understanding**]({{ base_path }}/publication/perception-bottleneck-of-vlms-for-chart-understanding/)
    **Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
    *arXiv*, 2025. **First author.** Code repository: Vision4Chart.
 
-3. [**On the Universal Truthfulness Hyperplane Inside LLMs**](/publication/universal-truthfulness-hyperplane-inside-llms/)
+3. [**On the Universal Truthfulness Hyperplane Inside LLMs**]({{ base_path }}/publication/universal-truthfulness-hyperplane-inside-llms/)
    **Junteng Liu**, Shiqi Chen, Yu Cheng, Junxian He
    *EMNLP 2024*, 2024. **First author.** Code repository: Universal_Truthfulness_Hyperplane.
 
-4. [**In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**](/publication/in-context-sharpness-as-alerts/)
+4. [**In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**]({{ base_path }}/publication/in-context-sharpness-as-alerts/)
    Shiqi Chen, Miao Xiong, **Junteng Liu**, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He
    *ICML 2024*, 2024. Co-authored.
 
-5. [**C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models**](/publication/c-eval/)
+5. [**C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models**]({{ base_path }}/publication/c-eval/)
    Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, **Junteng Liu**, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He
    *NeurIPS 2023*, 2023. Co-authored.
 
-6. [**Composing Parameter-Efficient Modules with Arithmetic Operations**](/publication/composing-parameter-efficient-modules-with-arithmetic-operations/)
+6. [**Composing Parameter-Efficient Modules with Arithmetic Operations**]({{ base_path }}/publication/composing-parameter-efficient-modules-with-arithmetic-operations/)
    Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He
    *NeurIPS 2023*, 2023. Co-authored.
 
