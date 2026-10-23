@@ -34,3 +34,14 @@ jobs:
         run: bundle exec jekyll build --strict_front_matter
         env:
           JEKYLL_ENV: production
+
+      - name: Inspect rendered homepage and publications
+        run: |
+          echo "Generated publication pages:"
+          find _site/publication -name index.html
+          echo "About page profile:"
+          grep -o '<h3 class="author__name">[^<]*</h3>' _site/index.html
+          echo "About page publication titles:"
+          grep -o 'archive__item-title\|SynLogic[^<]*\|Perception Bottleneck[^<]*\|Universal Truthfulness[^<]*\|In-Context Sharpness[^<]*\|C-Eval[^<]*\|Composing Parameter-Efficient[^<]*' _site/index.html
+          echo "Publications page entries:"
+          grep -o '<h2 class="archive__item-title"[^>]*>.*\|Published in <i>[^<]*</i>[^<]*' _site/publications/index.html
